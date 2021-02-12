@@ -58,6 +58,18 @@ body {
   background-color: chartreuse;
   grid-row: 4/5;
   grid-column: 3/8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar form {
+  background-color: darkorchid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
 }
 
 .search-type {
