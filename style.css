@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(9, 1fr);
+}
