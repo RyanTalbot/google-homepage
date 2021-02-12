@@ -92,7 +92,32 @@ body {
 }
 
 .footer-container {
-  background-color: darkmagenta;
+  background-color: darkturquoise;
   grid-row: 9/10;
   grid-column: 1/10;
+}
+
+.footer-container footer {
+  background-color: green;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.upper-nav {
+  background-color: hotpink;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.lower-nav-left {
+  background-color: indianred;
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+
+.lower-nav-right {
+  background-color: khaki;
+  grid-row: 4/5;
+  grid-column: 2/3;
 }
